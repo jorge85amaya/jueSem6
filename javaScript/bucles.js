@@ -1,3 +1,4 @@
+//Ejercicio número 1
 let diaSemana = prompt("¿Que dia de la semana es hoy?");
 let ejerLun = "Camina 10km.";
 let ejerMar = "Camina 15km.";
@@ -30,4 +31,15 @@ switch (diaSemana){
         break;
     default:
         alert("Escribe el dia de la semana completo y en minúscula.");
+}
+
+//Ejercicio número 2
+for (let i = 20; i <= 70; i++) {
+    document.write("El numero es: " + i + "<br>");    
+}
+
+//Ejercicio número 3
+let bucles = parseInt(prompt("Cuantas veces deseas que aparezca el saludo 'hola mundo'?"));
+for (let i = 0; i < bucles; i++) {
+    document.write("Hola mundo<br>");
 }
